@@ -30,7 +30,7 @@ module.exports = (env, argv) => {
             ],
         },
         devServer: {
-            // contentBase
+            allowedHosts: "all",
             static : {
                 directory : path.join(__dirname, "/public")
             },

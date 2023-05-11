@@ -1,10 +1,9 @@
 {
   "name": "codesandbox-example",
   "version": "0.0.0",
-  "private": true,
   "dependencies": {
     "@lemonadejs/datagrid": "^1.0.3",
-    "lemonadejs": "^3.0.7"
+    "lemonadejs": "^3.2.0"
   },
   "scripts": {
     "build": "npx webpack --mode=production --config webpack.config.js",
